@@ -1,33 +1,38 @@
 <?php 
-	//Allow the config
+	// Allow the config 
 	define('__CONFIG__',true);
-	//Require the config
-	Require_once "inc/footer.php";
+	// Require the config
+	require_once "inc/config.php";
+
 ?>
 
+
+
 <!DOCTYPE html>
-<html lang="en">
-	<head>
+<html>
+<head>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
 		<meta name="robots" content="follow">
 
-		<title> Page Title</title>
-
+		<title>Page Title</title>
 		<base href="/">
 		<link rel="stylesheet" href="/PHP-Login-System/css/uikit.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/css/uikit.min.css" />
 
-	</head>
+	<title>Page Title</title>
 
-	<body>
+</head>
+
+
+<body>
 
   	<div class="uk-section uk-container">
   		<div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
-			<form class="uk-form-stacked js-login">
+			<form class="uk-form-stacked js-register">
 				
-				<h2>Login</h2>
+				<h2>Register</h2>
 
 			    <div class="uk-margin">
 			        <label class="uk-form-label" for="form-stacked-text">Email</label>
@@ -44,7 +49,7 @@
 			    </div>
 
 			    <div class="uk-margin">
-			        <button class="uk-button uk-button-default" type="submit">Login</button>
+			        <button class="uk-button uk-button-default" type="submit">Register</button>
 			    </div>
 
 			</form>
@@ -53,4 +58,4 @@
 
   	<?php require_once "inc/footer.php"; ?> 
   </body>
-</html>	
+</html>

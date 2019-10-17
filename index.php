@@ -1,10 +1,10 @@
 <?php 
-
-
-
+	//Allow the config
+	define('__CONFIG__',true);
+	//Require the config
+	Require_once "inc/footer.php";
 ?>
 
-<!DOCTYPE htnl>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -15,18 +15,20 @@
 
 		<title>Page Title</title>
 		<base href="/">
+		<link rel="stylesheet" href="/js/jquery-3.4.1.min.js">
+		<link rel="stylesheet"  href="/PHP-Login-System/css/uikit.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/css/uikit.min.css" />
 	</head>
 
 <body>
 	<div class="uk-section uk-container">
 		<?php
-		echo "Hellow world. Today is: ";
+		echo "Helloo world. Today is: ";
 		echo date("Y m d");
 		?>
 		<p>
-			<a href="/login.php">Login</a>
-			<a href="/register.php">Register</a>
+			<a href="/PHP-Login-System/login.php">Login</a>
+			<a href="/PHP-Login-System/register.php">Register</a>
 		</p>
 		
 		<?php require_once "inc/footer.php"; ?>	
