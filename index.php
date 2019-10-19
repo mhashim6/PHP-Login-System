@@ -15,8 +15,8 @@
 
 		<title>Page Title</title>
 		<base href="/">
-		<link rel="stylesheet" href="/js/jquery-3.4.1.min.js">
-		<link rel="stylesheet"  href="/PHP-Login-System/css/uikit.min.css">
+		<link rel="stylesheet" href="PHP-Login-System/assets/js/jquery-3.4.1.min.js">
+		<link rel="stylesheet"  href="/PHP-Login-System/assets/css/uikit.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/css/uikit.min.css" />
 	</head>
 
