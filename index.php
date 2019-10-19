@@ -15,8 +15,8 @@
 
 		<title>Page Title</title>
 		<base href="/">
-		<link rel="stylesheet" href="PHP-Login-System/assets/js/jquery-3.4.1.min.js">
-		<link rel="stylesheet"  href="/PHP-Login-System/assets/css/uikit.min.css">
+		<link rel="stylesheet" href="/assets/js/jquery-3.4.1.min.js">
+		<link rel="stylesheet"  href="/assets/css/uikit.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/css/uikit.min.css" />
 	</head>
 
@@ -27,8 +27,8 @@
 		echo date("Y m d");
 		?>
 		<p>
-			<a href="/PHP-Login-System/login.php">Login</a>
-			<a href="/PHP-Login-System/register.php">Register</a>
+			<a href="/login.php">Login</a>
+			<a href="/register.php">Register</a>
 		</p>
 		
 		<?php require_once "inc/footer.php"; ?>	

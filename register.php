@@ -18,7 +18,7 @@
 
 		<title>Page Title</title>
 		<base href="/">
-		<link rel="stylesheet" href="/PHP-Login-System/assets/css/uikit.min.css">
+		<link rel="stylesheet" href="/assets/css/uikit.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.1/css/uikit.min.css" />
 
 	<title>Page Title</title>
