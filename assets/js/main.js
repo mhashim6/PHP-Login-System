@@ -31,8 +31,8 @@ $(document)
 		type: 'POST',
 		url: '/ajax/register.php',
 		data: dataObj,
-		dataType:'json'
-		async: true,
+		dataType:'json',
+		async: true
 	})
 
 	.done(function ajaxDone(data){
