@@ -15,4 +15,4 @@ if(!defined('__CONFIG__')) {
 <script src="/assets/js/uikit-icons.min.js"></script>
 
 
-<script src="PHP-Login-System/assets/js/main.js" Type="text/javascript"></script>
+<script src="/assets/js/main.js"></script>
